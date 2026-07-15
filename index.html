@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Дэшборд по социально значимым продовольственным товарам Казахстана: инфляция, цены, производство, экспорт, импорт и обеспеченность">
+  <title>АгроПульс — СЗПТ Казахстана</title>
+  <link rel="stylesheet" href="styles.css?v=20260711-card">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#overview">
+        <span class="brand-mark"><svg viewBox="0 0 44 44"><path d="M10 27c11 0 18-5 24-15 1 12-4 22-15 24"/><path d="M11 32c5-7 11-12 20-16"/></svg></span>
+        <span><strong>АгроПульс</strong><small>СЗПТ · цены · рынок</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Разделы">
+        <a href="#overview">Обзор</a>
+        <a href="#balance">Баланс</a>
+        <a href="#product-detail">Карточка</a>
+        <a href="#stocks">Запасы МИО</a>
+      </nav>
+      <div class="topbar-actions">
+        <span class="source-pill"><i></i> Данные БНС</span>
+        <button class="icon-button" id="themeToggle" aria-label="Сменить тему">●</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero macro-hero" id="overview">
+        <div>
+          <p class="eyebrow">Республика Казахстан · социально значимые продовольственные товары</p>
+          <h1>АгроПульс:<br> СЗПТ и продовольственная инфляция</h1>
+          <p class="hero-copy">Верхний блок показывает официальную картину БНС: годовую инфляцию, рост продовольственных товаров, вклад товарных групп и дату последней публикации по ценам СЗПТ.</p>
+          <div class="hero-links"><a href="#inflation-block">Инфляция и вклад ↓</a><a href="#product-detail">Карточка товара ↓</a></div>
+        </div>
+        <div class="inflation-orbit">
+          <div class="orbit-main"><span>Годовая инфляция</span><strong id="headlineInflation">—</strong><small id="macroPeriod">—</small></div>
+          <div class="orbit-note">Продовольствие формирует <b id="contributionShare">—</b> общей инфляции</div>
+        </div>
+      </section>
+
+      <section class="kpi-grid macro-grid">
+        <article class="kpi-card accent"><div class="kpi-label">Инфляция в РК</div><div class="kpi-value"><strong id="inflation">—</strong></div><div class="kpi-foot" id="inflationCompare">—</div></article>
+        <article class="kpi-card"><div class="kpi-label">Продовольственная инфляция</div><div class="kpi-value"><strong id="foodInflation">—</strong></div><div class="kpi-foot" id="foodCompare">—</div></article>
+        <article class="kpi-card"><div class="kpi-label">Вклад продовольствия</div><div class="kpi-value"><strong id="foodContribution">—</strong><span>п.п.</span></div><div class="kpi-foot" id="contributionCompare">—</div></article>
+        <article class="kpi-card"><div class="kpi-label">За последний месяц</div><div class="kpi-value"><strong id="monthlyFood">—</strong></div><div class="kpi-foot">продовольственные товары</div></article>
+      </section>
+
+      <section class="section-block compact-block" id="inflation-block">
+        <div class="section-intro">
+          <div><p class="panel-kicker">Инфляция</p><h2>Товарные группы и вклад</h2><p>Источник: БНС, публикация “Инфляция в Республике Казахстан (июнь 2026г.)”, опубликовано 01.07.2026.</p></div>
+        </div>
+        <article class="panel">
+          <div id="inflationGroups" class="inflation-groups"></div>
+        </article>
+      </section>
+
+      <section class="section-block" id="balance">
+        <div class="section-intro">
+          <div><p class="panel-kicker">Баланс внутреннего рынка</p><h2>Производим, ввозим, вывозим</h2><p>По выбранному СЗПТ показывается обеспеченность, ресурсный баланс и внешняя торговля с ценой за тонну.</p></div>
+          <label class="select-field product-master"><span>Выберите товар</span><select id="marketProductSelect"></select></label>
+        </div>
+
+        <div class="balance-grid">
+          <article class="panel coverage-panel">
+            <div class="panel-heading"><div><p class="panel-kicker">Обеспеченность</p><h2 id="coverageProduct">—</h2></div><span id="coverageStatus" class="status-badge">—</span></div>
+            <div class="coverage-visual"><div class="gauge"><div class="gauge-value" id="coverageValue">—</div><div class="gauge-label">за счёт отечественного производства</div></div><div class="coverage-track"><i id="coverageBar"></i><span class="threshold">100%</span></div></div>
+            <div class="mini-metrics"><div><span>Импорт в потреблении</span><strong id="importShare">—</strong></div><div><span>Потребление</span><strong id="consumption">—</strong></div></div>
+          </article>
+
+          <article class="panel flow-panel">
+            <div class="panel-heading"><div><p class="panel-kicker">Ресурсный баланс</p><h2>Итоги 2025 года</h2></div><span class="panel-note" id="flowUnitNote">т</span></div>
+            <div class="flow-chain">
+              <div class="flow-item production"><span>Производство</span><strong id="production">—</strong><small id="productionPeriod">—</small></div>
+              <div class="flow-symbol">−</div>
+              <div class="flow-item export"><span>Экспорт</span><strong id="export2025">—</strong></div>
+              <div class="flow-symbol">+</div>
+              <div class="flow-item import"><span>Импорт</span><strong id="import2025">—</strong></div>
+            </div>
+            <p class="formula-note">Внутренний ресурс = производство − экспорт + импорт</p>
+          </article>
+        </div>
+
+        <div class="dashboard-grid market-grid">
+          <article class="panel trend-panel">
+            <div class="panel-heading"><div><p class="panel-kicker">Внешняя торговля</p><h2 id="tradeTitle">Экспорт и импорт</h2></div><div class="dual-legend"><span><i class="export-dot"></i>Экспорт</span><span><i class="import-dot"></i>Импорт</span></div></div>
+            <div id="tradeChart" class="trade-chart"></div>
+            <p class="panel-source" id="tradeSourceNote">Январь–апрель 2026 · тонны · под строками указана средняя цена.</p>
+          </article>
+          <article class="panel ranking-panel">
+            <div class="panel-heading"><div><p class="panel-kicker">Фокус</p><h2>СЗПТ по риск-рейтингу</h2></div></div>
+            <div id="coverageRanking" class="coverage-ranking"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" id="stocks">
+        <div class="section-intro prices-intro">
+          <div><p class="panel-kicker">Оперативные данные МИО</p><h2>Запасы, собранные через Telegram-бот</h2><p>Этот блок отделён от официальной статистики БНС/Талдау: здесь показываются последние файлы регионов, которые поступили от акиматов через бот.</p></div>
+          <div class="update-card compact"><span>Дата последних запасов</span><strong id="stocksUpdated">—</strong><small><span id="stocksRegionCount">—</span> · МИО</small></div>
+        </div>
+        <div class="stock-summary-grid">
+          <article class="kpi-card"><div class="kpi-label">Регионов с отчётом</div><div class="kpi-value"><strong id="stocksReceived">—</strong></div><div class="kpi-foot">по последней дате в базе бота</div></article>
+          <article class="kpi-card"><div class="kpi-label">Запасы, тонн</div><div class="kpi-value"><strong id="stocksTotalTons">—</strong></div><div class="kpi-foot">без яиц, по принятым файлам</div></article>
+          <article class="kpi-card"><div class="kpi-label">Яйца</div><div class="kpi-value"><strong id="stocksEggs">—</strong></div><div class="kpi-foot">тыс. штук</div></article>
+          <article class="kpi-card"><div class="kpi-label">Нет отчёта</div><div class="kpi-value"><strong id="stocksMissingCount">—</strong></div><div class="kpi-foot">регионов ожидается</div></article>
+        </div>
+        <div class="dashboard-grid stock-grid">
+          <article class="panel table-panel">
+            <div class="panel-heading table-heading"><div><p class="panel-kicker">Свод по товарам</p><h2>Оперативные запасы МИО</h2></div><span class="panel-note">сортировка по объёму</span></div>
+            <div class="table-wrap"><table><thead><tr><th>Товар</th><th>Всего</th><th>Регионов</th><th>Дата</th><th>Основной источник хранения</th></tr></thead><tbody id="stocksTable"></tbody></table></div>
+          </article>
+          <article class="panel">
+            <div class="panel-heading"><div><p class="panel-kicker">Контроль сдачи</p><h2>Регионы без файла</h2></div></div>
+            <div id="stocksMissing" class="missing-regions"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block detail-section" id="product-detail">
+        <div class="detail-header"><div><p class="panel-kicker">Карточка СЗПТ <span id="detailNumber">01</span> / <span id="detailTotal">—</span></p><h2 id="detailName">—</h2><p id="detailSummary">—</p></div><label class="select-field detail-select"><span>Другой товар</span><select id="detailProductSelect"></select></label></div>
+        <div class="detail-kpis">
+          <div class="price-kpi"><span>Цена</span><strong id="detailPrice">—</strong><small id="detailUnit"></small><div class="price-deltas"><b id="detailWeekChange">—</b><b id="detailYtdChange">—</b><b id="detailAnnualChange">—</b></div></div>
+          <div><span>Обеспеченность</span><strong id="detailCoverage">—</strong><small>2025</small></div>
+          <div><span>Производство</span><strong id="detailProduction">—</strong><small id="detailProductionUnit">тонн</small></div>
+          <div><span>Сальдо торговли</span><strong id="detailBalance">—</strong><small>экспорт − импорт</small></div>
+        </div>
+        <div class="dashboard-grid detail-grid">
+          <article class="panel"><div class="panel-heading"><div><p class="panel-kicker">Цена</p><h2>Публикации БНС по датам</h2></div></div><div id="priceTrend" class="chart"></div></article>
+          <article class="panel"><div class="panel-heading"><div><p class="panel-kicker">Производство</p><h2>Сравнение периодов</h2></div></div><div id="productionCompare" class="production-compare"></div></article>
+          <article class="panel"><div class="panel-heading"><div><p class="panel-kicker">Оперативные запасы МИО</p><h2>Последний файл региона</h2></div></div><div id="stockDetail" class="stock-detail"></div></article>
+          <article class="panel regions-panel"><div class="panel-heading"><div><p class="panel-kicker">География</p><h2>Цены по обследованным городам</h2></div></div><div id="regionBars" class="region-bars"></div></article>
+        </div>
+      </section>
+
+      <footer><p>Источники: Бюро национальной статистики РК, публикации по СЗПТ, внешней торговле и предварительный баланс обеспеченности за 2025 год.</p><p>Данные округлены · информационно-аналитический материал · риск-рейтинг является рабочей аналитической оценкой.</p></footer>
+    </main>
+  </div>
+  <script src="app.js?v=20260711-card"></script>
+</body>
+</html>
