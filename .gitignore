@@ -6,14 +6,12 @@
 *.zip
 *.rar
 *.7z
-*.xls
-*.xlsx
 *.xlsm
 *.csv
 logs/
 output/
 outputs/
-data/raw/
+data/raw/xls/
 data/stocks_uploads/
 data/stocks.sqlite3
 node_modules/

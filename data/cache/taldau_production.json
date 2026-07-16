@@ -1,0 +1,50 @@
+{
+  "сахар-песок": {
+    "source": "Taldau.stat.gov.kz: индекс 701608",
+    "sourceFiles": {
+      "current": "https://taldau.stat.gov.kz/ru/NewIndex/GetIndex/701608?keyword=%D1%81%D0%B0%D1%85%D0%B0%D1%80-%D0%BF%D0%B5%D1%81%D0%BE%D0%BA",
+      "annual": "https://taldau.stat.gov.kz/ru/NewIndex/GetIndex/701608?keyword=%D1%81%D0%B0%D1%85%D0%B0%D1%80-%D0%BF%D0%B5%D1%81%D0%BE%D0%BA"
+    },
+    "sourceRows": [
+      "РЕСПУБЛИКА КАЗАХСТАН + Всего + Сахар-песок, полученный из сахара тростникового или свекловичного, в твердом состоянии"
+    ],
+    "unit": "тонн",
+    "current": {
+      "period": "январь–май 2026",
+      "value": 49930.0,
+      "previousYearPeriod": 93082.0,
+      "changePct": 53.6,
+      "monthValue": null,
+      "previousMonth": null
+    },
+    "annual": {
+      "2025": 171987.0,
+      "2024": 162781.0,
+      "changePct": 105.7
+    }
+  },
+  "крупа гречневая": {
+    "source": "Taldau.stat.gov.kz: индекс 701608",
+    "sourceFiles": {
+      "current": "https://taldau.stat.gov.kz/ru/NewIndex/GetIndex/701608?keyword=%D0%BA%D1%80%D1%83%D0%BF%D0%B0%20%D0%B3%D1%80%D0%B5%D1%87%D0%BD%D0%B5%D0%B2%D0%B0%D1%8F",
+      "annual": "https://taldau.stat.gov.kz/ru/NewIndex/GetIndex/701608?keyword=%D0%BA%D1%80%D1%83%D0%BF%D0%B0%20%D0%B3%D1%80%D0%B5%D1%87%D0%BD%D0%B5%D0%B2%D0%B0%D1%8F"
+    },
+    "sourceRows": [
+      "РЕСПУБЛИКА КАЗАХСТАН + Всего + Крупа и мука грубого помола гречневая"
+    ],
+    "unit": "тонн",
+    "current": {
+      "period": "январь–май 2026",
+      "value": 8533.0,
+      "previousYearPeriod": 12896.0,
+      "changePct": 66.2,
+      "monthValue": null,
+      "previousMonth": null
+    },
+    "annual": {
+      "2025": 33156.0,
+      "2024": 28557.0,
+      "changePct": 116.1
+    }
+  }
+}
