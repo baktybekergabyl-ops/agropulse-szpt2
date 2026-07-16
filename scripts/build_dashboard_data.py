@@ -1341,9 +1341,10 @@ def load_detailed_vegetable_harvest() -> dict[str, Any]:
                     value_centners = safe_float(fruit_sheet.cell(rk_row, 2).value) if rk_row else None
                     if value_centners is None:
                         continue
+                    clean_title = re.sub(r"\s+", " ", title).strip()
                     result["яблоки"] = {
                         "value": value_centners / 10,
-                        "rows": [f"{re.sub(r'\\s+', ' ', title).strip()} (строка {row})"],
+                        "rows": [f"{clean_title} (строка {row})"],
                         "source": "БНС: Т-03-15-Г (2-том), валовой сбор плодов",
                     }
                     break
