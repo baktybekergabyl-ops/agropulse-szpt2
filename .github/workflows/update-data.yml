@@ -1,6 +1,14 @@
 name: Update AgroPulse data
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-data.yml"
+      - "bns_agent/**"
+      - "scripts/**"
+      - "requirements.txt"
   workflow_dispatch:
     inputs:
       mode:
