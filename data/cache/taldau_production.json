@@ -10,10 +10,10 @@
     ],
     "unit": "тонн",
     "current": {
-      "period": "январь–май 2026",
-      "value": 49930.0,
-      "previousYearPeriod": 93082.0,
-      "changePct": 53.6,
+      "period": "январь–июнь 2026",
+      "value": 76959.0,
+      "previousYearPeriod": 119488.0,
+      "changePct": 64.4,
       "monthValue": null,
       "previousMonth": null
     },
@@ -34,9 +34,9 @@
     ],
     "unit": "тонн",
     "current": {
-      "period": "январь–май 2026",
-      "value": 8533.0,
-      "previousYearPeriod": 12896.0,
+      "period": "январь–июнь 2026",
+      "value": 10596.0,
+      "previousYearPeriod": 16013.0,
       "changePct": 66.2,
       "monthValue": null,
       "previousMonth": null
