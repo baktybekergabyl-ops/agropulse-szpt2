@@ -23,7 +23,7 @@
     "weeklyUpdatePlan": "цены СЗПТ — пятница после 12:00; экспорт/импорт — ежемесячно после 15-го; производство БНС/Талдау — ежедневная проверка после 15-го числа в 15:00",
     "mioStocksSource": "Telegram-бот / data/stocks.sqlite3",
     "mioStocksUpdated": "2026-05-20",
-    "monthlyProductionFile": "T-04-01-М_рус_335608.xlsx",
+    "monthlyProductionFile": "T-04-01-М_рус_347182.xlsx",
     "annualProductionFile": "Т-04-05-Г_рус_347192.xlsx",
     "sugarProductionSource": "Taldau 701608",
     "buckwheatProductionSource": "Taldau 701608",
@@ -2019,7 +2019,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -2028,11 +2028,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 9143.0,
-          "previousYearPeriod": 10096.0,
-          "changePct": 90.6,
-          "monthValue": 1212.0,
-          "previousMonth": 1525.0
+          "value": 7931.0,
+          "previousYearPeriod": 9085.0,
+          "changePct": 87.3,
+          "monthValue": 1525.0,
+          "previousMonth": 1068.0
         },
         "annual": {
           "2025": 20228.0,
@@ -2044,7 +2044,7 @@
       "production": 20228.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 9143.0,
+      "operationalProduction": 7931.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 28881.58698,
@@ -2499,7 +2499,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -2508,11 +2508,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 11449.0,
-          "previousYearPeriod": 7561.0,
-          "changePct": 151.4,
-          "monthValue": 1522.0,
-          "previousMonth": 1609.0
+          "value": 9927.0,
+          "previousYearPeriod": 6335.0,
+          "changePct": 156.7,
+          "monthValue": 1609.0,
+          "previousMonth": 1592.0
         },
         "annual": {
           "2025": 18146.0,
@@ -2524,7 +2524,7 @@
       "production": 18146.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 11449.0,
+      "operationalProduction": 9927.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 7179.35609,
@@ -3563,7 +3563,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -3572,11 +3572,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 27325.0,
-          "previousYearPeriod": 22993.0,
-          "changePct": 118.8,
-          "monthValue": 3234.0,
-          "previousMonth": 2587.0
+          "value": 24091.0,
+          "previousYearPeriod": 21802.0,
+          "changePct": 110.5,
+          "monthValue": 2587.0,
+          "previousMonth": 2551.0
         },
         "annual": {
           "2025": 45904.0,
@@ -3588,7 +3588,7 @@
       "production": 45904.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 27325.0,
+      "operationalProduction": 24091.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 12482.18196,
@@ -4617,7 +4617,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -4626,11 +4626,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 20454.0,
-          "previousYearPeriod": 19399.0,
-          "changePct": 105.4,
-          "monthValue": 3092.0,
-          "previousMonth": 3167.0
+          "value": 17361.0,
+          "previousYearPeriod": 15767.0,
+          "changePct": 110.1,
+          "monthValue": 3167.0,
+          "previousMonth": 2739.0
         },
         "annual": {
           "2025": 34711.0,
@@ -4642,7 +4642,7 @@
       "production": 34711.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 20454.0,
+      "operationalProduction": 17361.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 127447.45155,
@@ -6229,7 +6229,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -6238,11 +6238,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 27809.0,
-          "previousYearPeriod": 23162.0,
-          "changePct": 120.1,
-          "monthValue": 3433.0,
-          "previousMonth": 3621.0
+          "value": 24376.0,
+          "previousYearPeriod": 19200.0,
+          "changePct": 127.0,
+          "monthValue": 3621.0,
+          "previousMonth": 3860.0
         },
         "annual": {
           "2025": 43799.0,
@@ -6254,7 +6254,7 @@
       "production": 43799.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 27809.0,
+      "operationalProduction": 24376.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 14596.98241,
@@ -6688,7 +6688,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -6697,11 +6697,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 157189.0,
-          "previousYearPeriod": 152900.0,
-          "changePct": 102.8,
-          "monthValue": 23022.0,
-          "previousMonth": 22607.0
+          "value": 134168.0,
+          "previousYearPeriod": 130003.0,
+          "changePct": 103.2,
+          "monthValue": 22607.0,
+          "previousMonth": 22852.0
         },
         "annual": {
           "2025": 261558.0,
@@ -6713,7 +6713,7 @@
       "production": 261558.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 157189.0,
+      "operationalProduction": 134168.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 6350.30426,
@@ -8282,7 +8282,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -8292,11 +8292,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 15643.0,
-          "previousYearPeriod": 13059.0,
-          "changePct": 119.8,
-          "monthValue": 1972.0,
-          "previousMonth": 2063.0
+          "value": 13671.0,
+          "previousYearPeriod": 11374.0,
+          "changePct": 120.2,
+          "monthValue": 2063.0,
+          "previousMonth": 2333.0
         },
         "annual": {
           "2025": 23771.0,
@@ -8308,7 +8308,7 @@
       "production": 23771.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 15643.0,
+      "operationalProduction": 13671.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 1890.36277,
@@ -15560,7 +15560,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -15569,11 +15569,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 385372.0,
-          "previousYearPeriod": 386116.0,
-          "changePct": 99.8,
-          "monthValue": 54030.0,
-          "previousMonth": 56016.0
+          "value": 331342.0,
+          "previousYearPeriod": 330186.0,
+          "changePct": 100.4,
+          "monthValue": 56016.0,
+          "previousMonth": 55752.0
         },
         "annual": {
           "2025": 671029.0,
@@ -15585,7 +15585,7 @@
       "production": 671029.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 385372.0,
+      "operationalProduction": 331342.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 2568.13377,
@@ -18713,7 +18713,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -18722,11 +18722,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 285037.0,
-          "previousYearPeriod": 275462.0,
-          "changePct": 103.5,
-          "monthValue": 39996.0,
-          "previousMonth": 40709.0
+          "value": 245041.0,
+          "previousYearPeriod": 242208.0,
+          "changePct": 101.2,
+          "monthValue": 40709.0,
+          "previousMonth": 41113.0
         },
         "annual": {
           "2025": 480167.0,
@@ -18738,7 +18738,7 @@
       "production": 480167.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 285037.0,
+      "operationalProduction": 245041.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 24350.89008,
@@ -20301,7 +20301,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -20311,11 +20311,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 577869.0,
-          "previousYearPeriod": 492500.0,
-          "changePct": 117.3,
-          "monthValue": 79331.0,
-          "previousMonth": 82045.0
+          "value": 498538.0,
+          "previousYearPeriod": 420323.0,
+          "changePct": 118.6,
+          "monthValue": 82045.0,
+          "previousMonth": 80912.0
         },
         "annual": {
           "2025": 813582.0,
@@ -20327,7 +20327,7 @@
       "production": 813582.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 577869.0,
+      "operationalProduction": 498538.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 707627.56221,
@@ -24433,7 +24433,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -24442,11 +24442,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 88779.0,
-          "previousYearPeriod": 83883.0,
-          "changePct": 105.8,
-          "monthValue": 12571.0,
-          "previousMonth": 11311.0
+          "value": 76208.0,
+          "previousYearPeriod": 73711.0,
+          "changePct": 103.4,
+          "monthValue": 11311.0,
+          "previousMonth": 11856.0
         },
         "annual": {
           "2025": 160065.0,
@@ -24458,7 +24458,7 @@
       "production": 160065.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 88779.0,
+      "operationalProduction": 76208.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 58935.49005,
@@ -24917,7 +24917,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -24926,11 +24926,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 157189.0,
-          "previousYearPeriod": 152900.0,
-          "changePct": 102.8,
-          "monthValue": 23022.0,
-          "previousMonth": 22607.0
+          "value": 134168.0,
+          "previousYearPeriod": 130003.0,
+          "changePct": 103.2,
+          "monthValue": 22607.0,
+          "previousMonth": 22852.0
         },
         "annual": {
           "2025": 261558.0,
@@ -24942,7 +24942,7 @@
       "production": 261558.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 157189.0,
+      "operationalProduction": 134168.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 17320.51626,
@@ -28077,7 +28077,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -28086,11 +28086,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 1068696.0,
-          "previousYearPeriod": 954729.0,
-          "changePct": 111.9,
-          "monthValue": 244500.0,
-          "previousMonth": 325079.0
+          "value": 824196.0,
+          "previousYearPeriod": 695789.0,
+          "changePct": 118.5,
+          "monthValue": 325079.0,
+          "previousMonth": 56865.0
         },
         "annual": {
           "2025": 2270480.0,
@@ -28102,7 +28102,7 @@
       "production": 2270480.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 1068696.0,
+      "operationalProduction": 824196.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 39974.88794,
@@ -32876,7 +32876,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -32885,11 +32885,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 2165574.0,
-          "previousYearPeriod": 1896317.0,
-          "changePct": 114.2,
-          "monthValue": 261742.0,
-          "previousMonth": 274482.0
+          "value": 1903832.0,
+          "previousYearPeriod": 1624901.0,
+          "changePct": 117.2,
+          "monthValue": 274482.0,
+          "previousMonth": 292667.0
         },
         "annual": {
           "2025": 3634478.0,
@@ -32901,7 +32901,7 @@
       "production": 3634478.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 2165574.0,
+      "operationalProduction": 1903832.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 492969.76435,
@@ -34455,7 +34455,7 @@
       "productionBns": {
         "source": "БНС: Т-04-01-М и Т-04-05-Г",
         "sourceFiles": {
-          "current": "T-04-01-М_рус_335608.xlsx",
+          "current": "T-04-01-М_рус_347182.xlsx",
           "annual": "Т-04-05-Г_рус_347192.xlsx"
         },
         "sourceRows": [
@@ -34464,11 +34464,11 @@
         "unit": "тонн",
         "current": {
           "period": "январь–май 2026",
-          "value": 130073.0,
-          "previousYearPeriod": 100992.0,
-          "changePct": 128.8,
-          "monthValue": 18498.0,
-          "previousMonth": 24337.0
+          "value": 111575.0,
+          "previousYearPeriod": 88218.0,
+          "changePct": 126.5,
+          "monthValue": 24337.0,
+          "previousMonth": 16411.0
         },
         "annual": {
           "2025": 224226.0,
@@ -34480,7 +34480,7 @@
       "production": 224226.0,
       "productionPeriod": "2025 год",
       "productionBalanceCompatible": true,
-      "operationalProduction": 130073.0,
+      "operationalProduction": 111575.0,
       "operationalProductionPeriod": "январь–май 2026",
       "seasonalProduction": null,
       "exportUsdK2025": 25499.31659,
