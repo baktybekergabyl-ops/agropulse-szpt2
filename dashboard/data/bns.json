@@ -1596,8 +1596,7 @@
           "2025": 171987.0,
           "2024": 162781.0,
           "changePct": 105.7
-        },
-        "cacheStatus": "cached"
+        }
       },
       "balanceProduction": 171987.0,
       "production": 171987.0,
@@ -26796,8 +26795,7 @@
           "2025": 33156.0,
           "2024": 28557.0,
           "changePct": 116.1
-        },
-        "cacheStatus": "cached"
+        }
       },
       "balanceProduction": 33156.0,
       "production": 33156.0,
