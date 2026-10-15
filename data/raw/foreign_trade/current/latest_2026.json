@@ -1,10 +1,10 @@
 {
   "year": 2026,
-  "file": "foreign_trade_hs_2026_347930.xlsx",
-  "title": "Экспорт и импорт товаров РК по 4,6,10 знакам ТН ВЭД ЕАЭС (январь-июль 2026г.)",
-  "period": "январь-июль 2026г.",
-  "url": "https://stat.gov.kz/api/iblock/element/347930/file/ru/",
+  "file": "foreign_trade_hs_2026_352888.xlsx",
+  "title": "Экспорт и импорт товаров РК по 4,6,10 знакам ТН ВЭД ЕАЭС (январь-август 2026г.)",
+  "period": "январь-август 2026г.",
+  "url": "https://stat.gov.kz/api/iblock/element/352888/file/ru/",
   "pageUrl": "https://stat.gov.kz/ru/industries/economy/foreign-market/spreadsheets/?year=2026&name=40113&type=spreadsheets",
-  "element": "347930",
-  "updatedAt": "2026-09-30"
+  "element": "352888",
+  "updatedAt": "2026-10-15"
 }
